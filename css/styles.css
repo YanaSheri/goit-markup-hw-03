@@ -1,0 +1,237 @@
+/*  
+    основной цвет #212121 
+    дополнительныe цвета:
+        p - #757575 
+        h1 - #FFFFFF 
+        hero and footer bg color - #2F303A
+        button bg color - #F5F4FA
+    акцент #2196F3 
+*/
+
+:root {
+    --primary-text-color: #212121;
+    --p-text-color: #757575;
+    --white-text-color: #FFFFFF;
+    --button-bg-color: #F5F4FA;
+    --accent-color: #2196F3;
+    --hero-and-footer-bg-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+
+/* ------- ЛОГОТИП -------- */
+.logo-link {
+    color: var(--primary-text-color);
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-link .span {
+    color: var(--accent-color);
+}
+
+
+/* ======================== Ш А П К А ====================== */
+/* -------------- НАВИГАЦИЯ ------------- */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+.site-nav .link,
+.site-nav .link-current {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.site-nav .link-current {
+    color: var(--accent-color);
+}
+
+/* ----------- БЛОК КОНТАКТОВ ---------- */
+.contacts-nav .link {
+    color: var(--p-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+/* - ЭФФЕКТЫ ИНТЕРАКТИВНЫХ ЭЛЕМЕНТОВ ШАПКИ - */
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* =========== К О Н Т Е Н Т =========== */
+ /* -------- ГЕРОЙ -------- */
+.hero {
+    background: var(--hero-and-footer-bg-color);
+}
+
+/* ЗАГОЛОВОК ГЕРОЯ */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+
+/* КНОПКА ГЕРОЯ */
+.button-primary {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* -------- СЕКЦИИ -------- */
+
+/* ЗАГОЛОВКИ СЕКЦИЙ */
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* === страница ГЛАВНАЯ === */
+
+/* СЕКЦИЯ "ОСОБЕННОСТИ" */
+.list {
+    list-style: none;
+}
+
+.list .item-title {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.list .item-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--p-text-color);
+}
+
+/* СЕКЦИЯ "НАША КОМАНДА" */
+.team-list {
+    list-style: none;
+}
+
+.team-list .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-list .title {
+    font-size: 16px;
+    line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--p-text-color);
+}
+
+/* === страница ПОРТФОЛИО === */
+/* ФИЛЬТР */
+.list .item-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+}
+
+.list .item-button:hover, 
+.list .item-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* ЗАГОЛОВКИ КАРТОЧЕК */
+.card-link {
+    text-decoration: none;
+}
+.card-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+/* ТЕКСТ КАРТОЧЕК */
+.card-text {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--p-text-color);
+}
+
+/* ================== FOOTER ===================== */
+/* ФОН ФУТЕРА */
+.footer {
+    background-color: var(--hero-and-footer-bg-color);
+}
+
+/* ЛОГО ФУТЕРА = Studio*/
+.span-footer {
+    color: var(--white-text-color);
+}
+
+/* АДРЕСС */
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color);
+}
+
+/* КОНТАКТЫ */
+.contacts {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6); 
+    /* color: var(--p-text-color); */
+    text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+
+
