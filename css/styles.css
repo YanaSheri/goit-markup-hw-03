@@ -367,6 +367,7 @@ ul {
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
     cursor: pointer;
+    padding: 6px 22px;
     border-radius: 4px;
 }
 
