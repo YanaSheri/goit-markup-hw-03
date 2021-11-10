@@ -17,9 +17,68 @@
     --hero-and-footer-bg-color: #2F303A;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
+}
+
+/* =========== COMMON STYLES ========== */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* ul {
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ================= HEADER ================*/
+
+.header {
+    /* width: 1600px; */
+    height: 80px;
+    /* outline: blue; */
+    background-color: blueviolet;
+
+}
+
+.header-container {
+    outline: 2px dotted red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    outline: 2px dotted red;
+}
+
+.site-nav {
+    display: flex;
 }
 
 /* ------- ЛОГОТИП -------- */
@@ -30,6 +89,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    display: block;
 }
 
 .logo-link .span {
