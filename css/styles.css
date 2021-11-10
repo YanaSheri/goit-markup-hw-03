@@ -42,16 +42,10 @@ ul {
     padding: 0;
 }
 
-/* ul {
-    margin: 0;
-    padding: 0;
-} */
-
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    /* margin: 0 auto; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,29 +53,22 @@ ul {
 /* ================= HEADER ================*/
 
 .header {
-    /* width: 1600px; */
-    height: 80px;
-    /* outline: blue; */
-    background-color: blueviolet;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-container {
-    outline: 2px dotted red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
     display: flex;
-    outline: 2px dotted red;
+    align-items: center;
 }
 
-.site-nav {
-    display: flex;
-}
-
-/* ------- ЛОГОТИП -------- */
+/* ---- ЛОГОТИП ---- */
 .logo-link {
     color: var(--primary-text-color);
     font-family: Raleway;
@@ -90,22 +77,24 @@ ul {
     letter-spacing: 0.03em;
     text-decoration: none;
 
-    display: block;
+    /* display: block; */
+    margin-right: 90px;
 }
 
 .logo-link .span {
     color: var(--accent-color);
 }
 
-
-/* ======================== Ш А П К А ====================== */
 /* -------------- НАВИГАЦИЯ ------------- */
+
 .site-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
     list-style: none;
+
+    display: flex;
 }
 
 .site-nav .link,
@@ -118,7 +107,7 @@ ul {
     color: var(--accent-color);
 }
 
-/* ----------- БЛОК КОНТАКТОВ ---------- */
+/* ------- БЛОК КОНТАКТОВ ------- */
 .contacts-nav .link {
     color: var(--p-text-color);
     font-weight: 500;
@@ -128,6 +117,14 @@ ul {
     text-decoration: none;
 }
 
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contacts-nav .link:not(:last-child) {
+    margin-right: 48px;
+}
+
 /* - ЭФФЕКТЫ ИНТЕРАКТИВНЫХ ЭЛЕМЕНТОВ ШАПКИ - */
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -135,6 +132,16 @@ ul {
 .contacts-nav .link:focus {
     color: var(--accent-color);
 }
+
+/* попытка увеличить область кликабельности ссылок */
+/* .logo-link,
+.link-current,
+.link {
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 45px;
+} */
+
 
 
 /* =========== К О Н Т Е Н Т =========== */
