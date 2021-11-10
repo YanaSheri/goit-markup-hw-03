@@ -410,11 +410,11 @@ ul {
 
 .card {
     margin-bottom: 30px;
-    border: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .last-card {
-    border: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .card-link {
