@@ -268,15 +268,35 @@ ul {
 }
 
 /* --- СЕКЦИЯ "НАША КОМАНДА" --- */
+
+.team-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .team-list {
     list-style: none;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.img-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-list .name {
+    margin-bottom: 10px;
 }
 
 .team-list .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -284,10 +304,12 @@ ul {
 .team-list .title {
     font-size: 16px;
     line-height: 1.2;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--p-text-color);
 }
+
+
 
 /* === страница ПОРТФОЛИО === */
 /* ФИЛЬТР */
