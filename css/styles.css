@@ -236,6 +236,11 @@ ul {
 
 /* --- СЕКЦИЯ "ЧЕМ МЫ ЗАНИМАЕМСЯ" --- */
 
+.works {
+    padding-top: 0;
+    /* outline: 2px dotted red; */
+}
+
 .works-list {
     list-style: none;
     display: flex;
