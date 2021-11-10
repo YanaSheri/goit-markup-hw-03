@@ -202,7 +202,7 @@ ul {
 
 /* ============ MAIN ============= */
 
-/* СЕКЦИЯ "ОСОБЕННОСТИ" */
+/* --- СЕКЦИЯ "ОСОБЕННОСТИ" --- */
 
 .features-container {
    padding-top: 94px;
@@ -250,7 +250,24 @@ ul {
     color: var(--p-text-color);
 } */
 
-/* СЕКЦИЯ "НАША КОМАНДА" */
+/* --- СЕКЦИЯ "ЧЕМ МЫ ЗАНИМАЕМСЯ" --- */
+
+.works-container {
+    padding-bottom: 94px;
+}
+
+.works-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.works-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* --- СЕКЦИЯ "НАША КОМАНДА" --- */
 .team-list {
     list-style: none;
 }
