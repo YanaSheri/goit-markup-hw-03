@@ -388,12 +388,12 @@ ul {
 
 .card {
     margin-bottom: 30px;
-    border-bottom: 2px solid lightgray;
+    /* border-bottom: 2px solid lightgray; */
 }
 
-.last-card {
+/* .last-card {
     border-bottom: 2px solid lightgray;
-}
+} */
 
 .card-link {
     text-decoration: none;
@@ -406,6 +406,7 @@ ul {
 
 .card-footer {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .card-title {
