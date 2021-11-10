@@ -150,6 +150,15 @@ ul {
     background: var(--hero-and-footer-bg-color);
 }
 
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* outline: 5px red; */
+}
+
 /* ЗАГОЛОВОК ГЕРОЯ */
 .hero-title {
     font-weight: 900;
@@ -159,6 +168,9 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-text-color);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 696px;
 }
 
 /* КНОПКА ГЕРОЯ */
@@ -173,7 +185,10 @@ ul {
     color: var(--white-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
+
 
 /* -------- СЕКЦИИ -------- */
 
@@ -185,26 +200,55 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/* === страница ГЛАВНАЯ === */
+/* ============ MAIN ============= */
 
 /* СЕКЦИЯ "ОСОБЕННОСТИ" */
-.list {
-    list-style: none;
+
+.features-container {
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 
-.list .item-title {
+.features-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 5px dotted red; */
+}
+
+.features-item {
+    width: 270px;
+}
+
+.features-list .item-title {
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    margin-bottom: 10px;
 }
 
-.list .item-text {
+/* .list .item-title {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+} */
+
+.features-list .item-text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--p-text-color);
 }
+
+/* .list .item-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--p-text-color);
+} */
 
 /* СЕКЦИЯ "НАША КОМАНДА" */
 .team-list {
