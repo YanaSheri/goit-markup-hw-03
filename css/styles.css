@@ -285,15 +285,17 @@ ul {
     justify-content: space-between;
 }
 
+
+.team-img {
+    display: block;
+}
+
 .img-footer {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.team-list .name {
-    margin-bottom: 10px;
+    background-color: var(--white-text-color);
 }
 
 .team-list .name {
@@ -303,6 +305,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 .team-list .title {
