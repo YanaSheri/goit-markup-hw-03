@@ -368,7 +368,7 @@ ul {
     padding-bottom: 94px;
 }
 
-/* ФИЛЬТР */
+/* -- ФИЛЬТР -- */
 .filter-list {
     list-style: none;
     display: flex;
@@ -399,7 +399,7 @@ ul {
     background-color: var(--accent-color);
 }
 
-/* ЗАГОЛОВКИ КАРТОЧЕК */
+/* -- КАРТОЧКИ -- */
 
 .portfolio-list {
     list-style: none;
@@ -410,6 +410,10 @@ ul {
 
 .card {
     margin-bottom: 30px;
+    border: 2px solid lightgray;
+}
+
+.last-card {
     border: 2px solid lightgray;
 }
 
