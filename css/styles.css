@@ -77,8 +77,6 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-
-    /* display: block; */
     margin-right: 90px;
 }
 
@@ -189,8 +187,12 @@ ul {
     margin: 0 auto;
 }
 
-
 /* -------- СЕКЦИИ -------- */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* ЗАГОЛОВКИ СЕКЦИЙ */
 .section-title {
@@ -203,11 +205,6 @@ ul {
 /* ============ MAIN ============= */
 
 /* --- СЕКЦИЯ "ОСОБЕННОСТИ" --- */
-
-.features-container {
-   padding-top: 94px;
-   padding-bottom: 94px;
-}
 
 .features-list {
     list-style: none;
@@ -229,13 +226,6 @@ ul {
     margin-bottom: 10px;
 }
 
-/* .list .item-title {
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-} */
-
 .features-list .item-text {
     font-size: 14px;
     line-height: 1.7;
@@ -243,18 +233,7 @@ ul {
     color: var(--p-text-color);
 }
 
-/* .list .item-text {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--p-text-color);
-} */
-
 /* --- СЕКЦИЯ "ЧЕМ МЫ ЗАНИМАЕМСЯ" --- */
-
-.works-container {
-    padding-bottom: 94px;
-}
 
 .works-list {
     list-style: none;
@@ -271,11 +250,6 @@ ul {
 
 .team {
     background-color: var(--team-section-bg-color);
-}
-
-.team-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-list {
@@ -362,11 +336,6 @@ ul {
 
 
 /* =========== PORTFOLIO ========== */
-
-.portfolio-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 /* -- ФИЛЬТР -- */
 .filter-list {
