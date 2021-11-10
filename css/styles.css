@@ -262,9 +262,11 @@ ul {
     list-style: none;
     display: flex;
     margin-top: 50px;
-    justify-content: space-between;
 }
 
+.team-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .team-img {
     display: block;
