@@ -309,47 +309,6 @@ ul {
     color: var(--p-text-color);
 }
 
-
-
-/* === страница ПОРТФОЛИО === */
-/* ФИЛЬТР */
-.list .item-button {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    background-color: var(--button-bg-color);
-    cursor: pointer;
-}
-
-.list .item-button:hover, 
-.list .item-button:focus {
-    color: var(--white-text-color);
-    background-color: var(--accent-color);
-}
-
-/* ЗАГОЛОВКИ КАРТОЧЕК */
-.card-link {
-    text-decoration: none;
-}
-.card-title {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--primary-text-color);
-}
-
-/* ТЕКСТ КАРТОЧЕК */
-.card-text {
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--p-text-color);
-}
-
 /* ================== FOOTER ===================== */
 
 .footer {
@@ -393,5 +352,88 @@ ul {
 .contacts:focus {
     color: var(--accent-color);
 }
+
+
+/* =========== PORTFOLIO ========== */
+
+.portfolio-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* ФИЛЬТР */
+.filter-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filter-list .item-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.filter-list .item-button:hover, 
+.filter-list .item-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+/* ЗАГОЛОВКИ КАРТОЧЕК */
+
+.portfolio-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 2px solid lightgray;
+}
+
+.card-link {
+    text-decoration: none;
+    display: block;
+}
+
+.card-img {
+    display: block;
+}
+
+.card-footer {
+    padding: 20px 24px;
+}
+
+.card-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+    margin-bottom: 4px;
+}
+
+/* ТЕКСТ КАРТОЧЕК */
+.card-text {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--p-text-color);
+}
+
 
 
